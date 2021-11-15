@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel ="stylesheet" href = "/stylesreg.css">
+</head>
+<body>
+
+    <form action="/registro" method="POST" class = "registro">
+        <label for = "nombreApellido"></label>
+        <input  class="nombre"  type = "text" id = "nombreApellido" name = "nombreApellido" placeholder="Nombre y apellido" >
+        <label for = "nombreDeUsuario"></label>
+        <input class="usuario" type = "text" id = "nombreDeUsuario" name = "nombreDeUsuario" placeholder="Nombre de Usuario">
+        <label for = "email"></label>
+        <input class= "email" type = "text" id = "email" name = "email" placeholder="E-mail">
+        <label for = "nacimiento" class="nacimiento">Fecha de nacimiento:</label>
+        <input class= "nacimiento" type = "date" id = "nacimiento" name = "nacimiento" >
+        <label for = "domicilio"></label>
+        <input class="domicilio" type = "text" id = "domicilio" name = "domicilio" placeholder="Domicilio" >
+        <label for = "perfilUsuario">Perfil del usuario:</label>
+        <input  class= "perfil" type = "radio" id = "perfilUsuario" name = "perfilUsuario" value="comprar">Comprador</input>
+        <label for = "perfilUsuario"></label>
+        <input class="perfil" type = "radio" id = "perfilUsuario" name = "perfilUsuario" value="vender">Vendedor</input>
+        <label for="intereses" >Interes:</label>
+        <select class="interes" name = "interes" id="interes">
+            <option name = "interes" value="electro">Electro</option>
+            <option name ="interes" value="moda">Moda</option>
+            <option name ="interes" value="hogar">Hogar</option>
+            <option name ="interes" value="jugueteria">Juguetería</option>
+            <option name ="interes" value="vidaSana">Vida sana</option>
+        </select>
+        <label for="contrasena"></label>
+        <input type= "password" id="contraseña" name="contraseña" placeholder="Contraseña">
+        <label for="confirmarContrasena"></label>
+        <input type= "password" id="confirmarContraseña" name="confirmarContraseña" placeholder="Confirmar contraseña">
+        <label for="enviar"></label>
+        <input class="enviar" type="submit" name="enviar" id="enviar">
+        <label for="borrar"></label>
+        <input class="borrar" type="reset" name="borrar" id="borrar">
+    </form>
+    
+</body>
+</html>

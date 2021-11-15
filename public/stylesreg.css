@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebebeb;
+}
+.registro{
+  display: flex;
+  flex-wrap: wrap;
+}
+.registro input{
+    width: 50%; 
+    padding: 4px;
+    margin: 10px;
+    margin-left: 92px;
+}
+form .nombre{
+    margin-top: 24px;
+}
+form .nacimiento{
+    margin-left: 92px;
+
+}
+input text{
+    margin-left: 10px;
+
+}
+form .perfil{ 
+   display: flex;
+   max-width: 14px;
+   margin-left: 146px;
+   margin-top: 3px;
+}
+form .interes{
+    margin-left: 34px; 
+}
+label{
+   margin-left: 92px;
+   margin-bottom: 5px;
+}
+form .enviar, form .borrar{
+    background-color: #DCE3FF ;
+    transition: background-color 450ms;
+}
+form .enviar:hover{
+    background-color: #0022AA;
+}
+form .borrar:hover{
+    background-color: #0022AA;
+}
+@media (min-width:768px){
+    .registro{
+        margin-left: 20px;
+    }
+    form .nombre{
+        margin-top: 60px 
+    }
+    form .usuario{
+        margin-left: 184px;
+    }
+    form .email{
+        margin-left: 184px;
+    }
+    form .nacimiento{
+        margin-left: 85px;
+    
+    }
+    input text{
+        margin-left: 10px;
+    
+    }
+    form .perfil{ 
+       display: flex;
+       max-width: 14px;
+       margin-left: 146px;
+       margin-top: 3px;
+    }
+    form .interes{
+        margin-left: 34px; 
+    }
+    label{
+       margin-left: 85px;
+       margin-bottom: 25px;
+    }
+    label .nacimiento{
+        margin-bottom: 2px;
+    }
+
+
+
+}
