@@ -23,7 +23,7 @@ app.post("/login", (req,res)=>{
     res.redirect("/")
 })
 const port= 3000;
-app.listen(process.env.port||port, ()=>{
+app.listen(process.env.PORT||port, ()=>{
     console.log ("servidor corriendo");
 })
 
